@@ -7,7 +7,7 @@
   },
   "rules": {
     "issue_comment": ["rules/not-stale.ts"],
-    "issues.opened": ["rules/emptybody.ts", "rules/labeler.ts"],
+    "issues.opened": ["rules/labeler.ts"],
     "pull_request.closed (pull_request.merged == true)": [
       "rules/invite-collaborator.ts"
     ]
